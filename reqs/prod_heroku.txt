@@ -1,6 +1,6 @@
 -r common.txt
 
 django-heroku
-whitenosie
+whitenoise
 gunicorn
 psycopg2
