@@ -1,3 +1,5 @@
 # askcompany
 
-repository for heroku deploy 
+repository for heroku deploy
+
+# heroku url
