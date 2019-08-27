@@ -1,0 +1,23 @@
+{% extends "shop/layout.html" %}
+
+{% block content %}
+    <form action="" method="GET">
+            <input type="text" name="q" value="{{q}}" />
+            <input type="submit" value="search" />
+        </form>
+        <h2>{% if q %}"{{ q }}"에 대한 검색 결과 입니다.{% endif %}</h2>
+        <ul>
+            {% for item in item_list %}
+                <li>
+                    <a href="{{ item.get_absolute_url }}">
+                        {{ item.name }}
+                    </a>
+                    {{ item.price }}
+                    {{ item.desc}}
+                </li>
+            {% endfor %}
+        </ul>
+
+        <hr>
+        <a href="{% url "shop:item_new" %}">New Item</a>
+{% endblock %}

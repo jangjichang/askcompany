@@ -1,0 +1,863 @@
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:14:29.672584' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:14:29.672584', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:14:30.267997' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:14:30.267997', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:19:34.213568' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:19:34.213568', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:19:34.572576' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:19:34.572576', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:22:40.429906' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:22:40.429906', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."name" LIKE '%LG%' ESCAPE '\' ORDER BY "shop_item"."id" ASC; args=('%LG%',)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:22:40.798679' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:22:40.798679', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:22:56.545407' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:22:56.545407', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."name" LIKE '%LG%' ESCAPE '\' ORDER BY "shop_item"."id" ASC; args=('%LG%',)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:23:12.327467' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:23:12.327467', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."name" LIKE '%LG%' ESCAPE '\' ORDER BY "shop_item"."id" ASC; args=('%LG%',)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-20 04:23:57.035576' AND "django_session"."session_key" = '3nfu1igbdf5j09kdml3df99a2hboyaij'); args=('2019-08-20 04:23:57.035576', '3nfu1igbdf5j09kdml3df99a2hboyaij')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."name" LIKE '%LG%' ESCAPE '\' ORDER BY "shop_item"."id" ASC; args=('%LG%',)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 1; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 1; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 3; args=(3,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 4; args=(4,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 5; args=(5,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.005) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.008) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:06:58.571173' AND "django_session"."session_key" = 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr'); args=('2019-08-23 01:06:58.571173', 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:06:59.124746' AND "django_session"."session_key" = 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr'); args=('2019-08-23 01:06:59.124746', 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr')
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:07:01.305355' AND "django_session"."session_key" = 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr'); args=('2019-08-23 01:07:01.305355', 'x6cxdd1rg9d3tgfj6zejuyuk5440wlkr')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'jcjang'; args=('jcjang',)
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'jc'; args=('jc',)
+(0.002) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'  LIMIT 1; args=('p8wek4wz983gqgzqcj1xtiz1nnesygbq',)
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'p8wek4wz983gqgzqcj1xtiz1nnesygbq', 'NTY0NzgwMjdiNjNjNmFiNGRkYjU5M2RlN2IwYWRkNDIyNzhhODAzNTp7fQ==', '2019-09-06 01:07:09.699305'; args=('p8wek4wz983gqgzqcj1xtiz1nnesygbq', 'NTY0NzgwMjdiNjNjNmFiNGRkYjU5M2RlN2IwYWRkNDIyNzhhODAzNTp7fQ==', '2019-09-06 01:07:09.699305')
+(0.000) BEGIN; args=None
+(0.006) UPDATE "auth_user" SET "last_login" = '2019-08-23 01:07:09.788071' WHERE "auth_user"."id" = 1; args=('2019-08-23 01:07:09.788071', 1)
+(0.000) BEGIN; args=None
+(0.001) UPDATE "django_session" SET "session_data" = 'M2U2YzdhNTFhOWNjOTJlY2E1MGU5MTU4Njg2NWY2YTAzMjI2NWFhYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1YmRmNWRjNDY1ZWNjYzZkMGE3YTcyMzlkYzQwOTBiNjA4ZWExNzU5In0=', "expire_date" = '2019-09-06 01:07:09.886813' WHERE "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'; args=('M2U2YzdhNTFhOWNjOTJlY2E1MGU5MTU4Njg2NWY2YTAzMjI2NWFhYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1YmRmNWRjNDY1ZWNjYzZkMGE3YTcyMzlkYzQwOTBiNjA4ZWExNzU5In0=', '2019-09-06 01:07:09.886813', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:07:09.981049' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:07:09.981049', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC  LIMIT 10; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:07:15.899804' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:07:15.899804', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:07:19.555374' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:07:19.555374', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC  LIMIT 10; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:07:21.109069' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:07:21.109069', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) PRAGMA foreign_keys = OFF; args=None
+(0.000) BEGIN; args=None
+ALTER TABLE "shop_item" RENAME TO "shop_item__old"; (params ())
+(0.004) ALTER TABLE "shop_item" RENAME TO "shop_item__old"; args=()
+CREATE TABLE "shop_item" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL, "desc" text NOT NULL, "price" integer unsigned NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "is_publish" bool NOT NULL, "photo" varchar(100) NOT NULL); (params None)
+(0.001) CREATE TABLE "shop_item" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL, "desc" text NOT NULL, "price" integer unsigned NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "is_publish" bool NOT NULL, "photo" varchar(100) NOT NULL); args=None
+INSERT INTO "shop_item" ("id", "name", "desc", "price", "created_at", "updated_at", "is_publish", "photo") SELECT "id", "name", "desc", "price", "created_at", "updated_at", "is_publish", '' FROM "shop_item__old"; (params ())
+(0.000) INSERT INTO "shop_item" ("id", "name", "desc", "price", "created_at", "updated_at", "is_publish", "photo") SELECT "id", "name", "desc", "price", "created_at", "updated_at", "is_publish", '' FROM "shop_item__old"; args=()
+DROP TABLE "shop_item__old"; (params ())
+(0.000) DROP TABLE "shop_item__old"; args=()
+(0.000) PRAGMA foreign_keys = ON; args=None
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) BEGIN; args=None
+(0.001) INSERT INTO "django_migrations" ("app", "name", "applied") VALUES ('shop', '0003_auto_20190823_1005', '2019-08-23 01:08:05.055740'); args=['shop', '0003_auto_20190823_1005', '2019-08-23 01:08:05.055740']
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" = 'logentry'); args=('admin', 'logentry')
+(0.001) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'permission'); args=('auth', 'permission')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'group'); args=('auth', 'group')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user'); args=('auth', 'user')
+(0.001) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" = 'contenttype'); args=('contenttypes', 'contenttype')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',)
+(0.002) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" = 'session'); args=('sessions', 'session')
+(0.001) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,)
+(0.001) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'django_extensions'; args=('django_extensions',)
+(0.002) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'django_jinja'; args=('django_jinja',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'blog' AND "django_content_type"."model" = 'post'); args=('blog', 'post')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'blog' AND "django_content_type"."model" = 'comment'); args=('blog', 'comment')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (8, 9) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(8, 9)
+(0.006) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'blog'; args=('blog',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'shop' AND "django_content_type"."model" = 'item'); args=('shop', 'item')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (7) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(7,)
+(0.001) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'shop'; args=('shop',)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:29.596968' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:29.596968', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:30.304078' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:30.304078', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:32.495337' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:32.495337', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'shop' AND "django_content_type"."model" = 'item'); args=('shop', 'item')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:32.849823' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:32.849823', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:37.944092' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:37.944092', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) BEGIN; args=None
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) UPDATE "shop_item" SET "name" = 'changed name', "desc" = '애플에서 2018년에 발표한 모델입니다. 근데 너무 비싸네요.', "price" = 1000000, "photo" = 'ITZY-yeji.jpg', "created_at" = '2019-08-14 05:20:41.726862', "updated_at" = '2019-08-23 01:08:38.360874', "is_publish" = 0 WHERE "shop_item"."id" = 1; args=('changed name', '애플에서 2018년에 발표한 모델입니다. 근데 너무 비싸네요.', 1000000, 'ITZY-yeji.jpg', '2019-08-14 05:20:41.726862', '2019-08-23 01:08:38.360874', False, 1)
+(0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2019-08-23 01:08:38.380821', 1, 7, '1', '<1> changed name', 2, '[{"changed": {"fields": ["photo"]}}]'); args=['2019-08-23 01:08:38.380821', 1, 7, '1', '<1> changed name', 2, '[{"changed": {"fields": ["photo"]}}]']
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:38.422653' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:38.422653', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.009) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:38.840536' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:38.840536', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:40.118788' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:40.118788', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:40.393053' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:40.393053', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:41.552210' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:41.552210', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:42.841812' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:42.841812', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) BEGIN; args=None
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:55.982592' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:55.982592', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:08:58.224565' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:08:58.224565', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:44.225078' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:44.225078', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:44.895364' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:44.895364', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:49.979804' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:49.979804', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'shop' AND "django_content_type"."model" = 'item'); args=('shop', 'item')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:50.486449' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:50.486449', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:57.173493' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:57.173493', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) UPDATE "shop_item" SET "name" = 'changed name', "desc" = '애플에서 2018년에 발표한 모델입니다. 근데 너무 비싸네요.', "price" = 1000000, "photo" = '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', "created_at" = '2019-08-14 05:20:41.726862', "updated_at" = '2019-08-23 01:38:57.566437', "is_publish" = 0 WHERE "shop_item"."id" = 1; args=('changed name', '애플에서 2018년에 발표한 모델입니다. 근데 너무 비싸네요.', 1000000, '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', '2019-08-14 05:20:41.726862', '2019-08-23 01:38:57.566437', False, 1)
+(0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2019-08-23 01:38:57.602341', 1, 7, '1', '<1> changed name', 2, '[{"changed": {"fields": ["photo"]}}]'); args=['2019-08-23 01:38:57.602341', 1, 7, '1', '<1> changed name', 2, '[{"changed": {"fields": ["photo"]}}]']
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:57.666708' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:57.666708', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.006) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "shop_item"; args=()
+(0.005) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:58.122295' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:58.122295', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:59.428663' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:59.428663', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:38:59.764874' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:38:59.764874', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:47:37.728506' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:47:37.728506', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:47:39.995660' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:47:39.995660', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:47:42.132347' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:47:42.132347', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:48:22.461727' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:48:22.461727', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:49:09.445575' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:49:09.445575', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:49:28.164740' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:49:28.164740', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:50:25.051934' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:50:25.051934', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:50:27.550705' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:50:27.550705', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:50:44.095997' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:50:44.095997', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:50:45.821248' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:50:45.821248', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:53:20.017747' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:53:20.017747', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:53:21.199244' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:53:21.199244', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 2; args=(2,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 01:53:22.449137' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 01:53:22.449137', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:39:23.219932' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:39:23.219932', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:39:23.745534' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:39:23.745534', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:39:25.943507' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:39:25.943507', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:40:25.139339' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:40:25.139339', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:42:10.302105' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:42:10.302105', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:42:17.204691' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:42:17.204691', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:42:27.320176' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:42:27.320176', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:42:39.836215' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:42:39.836215', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:42:40.861057' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:42:40.861057', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:43:34.042975' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:43:34.042975', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC  LIMIT 21; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:43:41.877367' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:43:41.877367', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 02:43:43.369180' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 02:43:43.369180', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:11:01.745407' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:11:01.745407', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:11:03.557351' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:11:03.557351', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:11:04.374378' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:11:04.374378', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:02.448005' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:02.448005', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:40.137429' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:40.137429', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:41.698778' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:41.698778', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:42.438435' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:42.438435', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:43.725959' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:43.725959', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 4; args=(4,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:45.497285' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:45.497285', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 03:19:46.588322' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 03:19:46.588322', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 05:59:56.300162' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 05:59:56.300162', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 05:59:57.522252' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 05:59:57.522252', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 05:59:59.371423' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 05:59:59.371423', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:00:22.446978' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:00:22.446978', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:00:24.907452' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:00:24.907452', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.007) UPDATE "shop_item" SET "name" = '잇지 예지', "desc" = '잇지 예지 솔로앨범', "price" = 1000000, "photo" = '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', "created_at" = '2019-08-14 05:20:41.726862', "updated_at" = '2019-08-23 06:00:53.360723', "is_publish" = 0 WHERE "shop_item"."id" = 1; args=('잇지 예지', '잇지 예지 솔로앨범', 1000000, '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', '2019-08-14 05:20:41.726862', '2019-08-23 06:00:53.360723', False, 1)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:00:53.428542' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:00:53.428542', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:00:55.514505' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:00:55.514505', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:01:32.397943' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:01:32.397943', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.008) UPDATE "shop_item" SET "name" = '잇지 예지 (수정)', "desc" = '잇지 예지 솔로앨범', "price" = 1000000, "photo" = '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', "created_at" = '2019-08-14 05:20:41.726862', "updated_at" = '2019-08-23 06:01:37.375442', "is_publish" = 0 WHERE "shop_item"."id" = 1; args=('잇지 예지 (수정)', '잇지 예지 솔로앨범', 1000000, '84/cc/99d72c31467b9bf0e6f00abfd76e.jpg', '2019-08-14 05:20:41.726862', '2019-08-23 06:01:37.375442', False, 1)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:01:37.488322' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:01:37.488322', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.004) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:13:51.406409' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:13:51.406409', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.003) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:13:53.268649' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:13:53.268649', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:13:57.171442' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:13:57.171442', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:13:59.286454' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:13:59.286454', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:14.337120' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:14.337120', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:17.972259' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:17.972259', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 4; args=(4,)
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:19.559945' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:19.559945', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:21.151217' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:21.151217', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:25.324251' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:25.324251', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:25:50.522650' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:25:50.522650', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.006) INSERT INTO "shop_item" ("name", "desc", "price", "photo", "created_at", "updated_at", "is_publish") VALUES ('사나 솔로 앨범', '사나 솔로앨범이 나왔어요', 100000, 'b3/7f/ecda32f6494bbfa3f064faa9c76c.jpg', '2019-08-23 06:26:27.293309', '2019-08-23 06:26:27.293309', 0); args=['사나 솔로 앨범', '사나 솔로앨범이 나왔어요', 100000, 'b3/7f/ecda32f6494bbfa3f064faa9c76c.jpg', '2019-08-23 06:26:27.293309', '2019-08-23 06:26:27.293309', False]
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:26:27.382390' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:26:27.382390', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:27:43.720379' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:27:43.720379', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.000) BEGIN; args=None
+(0.007) UPDATE "shop_item" SET "name" = '사나 솔로 앨범 (수정)', "desc" = '사나 솔로앨범이 나왔어요', "price" = 100000, "photo" = 'b3/7f/ecda32f6494bbfa3f064faa9c76c.jpg', "created_at" = '2019-08-23 06:26:27.293309', "updated_at" = '2019-08-23 06:27:49.318055', "is_publish" = 0 WHERE "shop_item"."id" = 6; args=('사나 솔로 앨범 (수정)', '사나 솔로앨범이 나왔어요', 100000, 'b3/7f/ecda32f6494bbfa3f064faa9c76c.jpg', '2019-08-23 06:26:27.293309', '2019-08-23 06:27:49.318055', False, 6)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:27:49.404117' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:27:49.404117', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:30:24.994777' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:30:24.994777', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:30:27.764263' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:30:27.764263', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:30:30.909967' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:30:30.909967', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:30:32.790149' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:30:32.790149', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 06:30:38.013286' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 06:30:38.013286', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:14.795057' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:14.795057', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:17.542307' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:17.542307', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:19.731985' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:19.731985', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 5; args=(5,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:21.747143' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:21.747143', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.002) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 3; args=(3,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:23.267320' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:23.267320', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-08-23 07:07:25.074252' AND "django_session"."session_key" = 'p8wek4wz983gqgzqcj1xtiz1nnesygbq'); args=('2019-08-23 07:07:25.074252', 'p8wek4wz983gqgzqcj1xtiz1nnesygbq')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.000) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 6; args=(6,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."id" = 1; args=(1,)
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" ORDER BY "shop_item"."id" ASC; args=()
+(0.001) SELECT "shop_item"."id", "shop_item"."name", "shop_item"."desc", "shop_item"."price", "shop_item"."photo", "shop_item"."created_at", "shop_item"."updated_at", "shop_item"."is_publish" FROM "shop_item" WHERE "shop_item"."name" LIKE '%잇지%' ESCAPE '\' ORDER BY "shop_item"."id" ASC; args=('%잇지%',)

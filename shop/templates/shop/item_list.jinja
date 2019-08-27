@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog for Ask Company</title>
+    </head>
+    <body>
+        <h1>Ask Company</h1>
+
+        {{ user }}
+
+        <form action="" method="GET">
+            <input type="text" name="q" value="{{q}}" />
+            <input type="submit" value="search" />
+        </form>
+        <h2>{% if q %}"{{ q }}"에 대한 검색 결과 입니다.{% endif %}</h2>
+        <ul>
+            {% for item in item_list %}
+                <li>
+                    {{ item.name }}
+                    {{ item.price }}
+                    {{ item.desc}}
+                </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

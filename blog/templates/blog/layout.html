@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block title %}Blog by jc Jang {% endblock %}
+
+{% block extra_head %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static "blog/blog.css" %}"/>
+{% endblock %}
+
+{% block extra_body %}
+    {{ block.super }}
+{% endblock %}
