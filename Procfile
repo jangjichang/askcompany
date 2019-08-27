@@ -1,1 +1,1 @@
-web: guicorn askcompany.wsgi --log-file -
+web: gunicorn askcompany.wsgi --log-file -
